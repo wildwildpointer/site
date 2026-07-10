@@ -4,8 +4,8 @@ tagline: "AI-powered storage, search, and chat over your personal notes and docu
 coverImage: "/images/projects/notes-ai_2.png"
 coverAlt: "NotesAI project cover — personal knowledge and notes"
 status: "active"
-stage: "discovery"
-stageLabel: "Discovery"
+stage: "product-design"
+stageLabel: "Product Design"
 summary: "Store notes, index knowledge with vector search, and ask questions in natural language using RAG over your own documents."
 startedAt: "2026-05-01"
 neededRoles:
@@ -16,10 +16,10 @@ neededRoles:
   - "Frontend Developer"
   - "QA Engineer"
 links:
-  github: "https://github.com/WildPointerOrg"
+  github: "https://github.com/WildPointerOrg/notesai"
   docs: ""
   discussions: "https://github.com/orgs/WildPointerOrg/discussions/1"
-  roadmap: ""
+  roadmap: "https://github.com/orgs/WildPointerOrg/projects/3"
 contacts:
   coordinator: "tg: @chechestor"
   telegram: ""
@@ -29,6 +29,11 @@ materials:
     title: "NotesAI — Idea Document"
     summary: "Formatted idea overview — problem, users, solution, competitors, and risks"
     url: "https://docs.google.com/document/d/1cckBan-CQ0EU9Gql997ZVmQO6C88TGhiQAhf4bAj72Q/edit?usp=sharing"
+    order: 1
+  - stage: "discovery"
+    title: "NotesAI — Discovery"
+    summary: "Discovery research outcomes — problem validation, use cases, and product scope"
+    url: "https://docs.google.com/document/d/1vlyFimw6enDUkA3NuzuXJdf9GGQ_IA5KJhcRSSrp_x4/edit?usp=drive_link"
     order: 1
 featured: true
 order: 1
@@ -59,9 +64,11 @@ NotesAI addresses this by combining document storage, vector search, and LLM-bas
 
 ## Current Focus
 
-The squad is in **Discovery**: validating the problem, use cases, and product scope before implementation.
+The squad is in **Product Design**: turning Discovery outcomes into user flows, UX/UI, and an MVP prototype.
 
-**Main user flow under validation**
+Discovery research is complete — see [NotesAI — Discovery](https://docs.google.com/document/d/1vlyFimw6enDUkA3NuzuXJdf9GGQ_IA5KJhcRSSrp_x4/edit?usp=drive_link). Work is tracked on the [GitHub project board](https://github.com/orgs/WildPointerOrg/projects/3); code lives in the [notesai repository](https://github.com/WildPointerOrg/notesai).
+
+**Main user flow**
 
 1. User sends notes (text / link / voice) to the app.
 2. System indexes notes into a vector database.
@@ -69,21 +76,11 @@ The squad is in **Discovery**: validating the problem, use cases, and product sc
 4. System retrieves relevant chunks and generates contextual answers.
 5. User searches prior conversations and notes.
 
-**Proposed solution (direction)**
+**Design focus**
 
-- Note upload and organization.
-- Vector search and tagging / categorization.
-- AI chat over personal notes with conversation history.
-- Multilingual support and API access (planned).
-
-**Compared to existing tools**
-
-| Product | Notes |
-| --- | --- |
-| Notion AI | Strong product; limited free API for our use case — needs further discovery |
-| Obsidian | Popular locally; less convenient for quick capture and AI-first workflows |
-| Evernote | Established notes app; weak AI integration, no free API |
-| Mem.ai | Alternative AI notes product — needs further discovery |
+- Primary user journeys and MVP surface (bot vs web vs mobile).
+- Wireframes and UX/UI prototype for note capture, search, and AI chat.
+- Information architecture for notes, conversations, and retrieval feedback.
 
 ## Open Questions
 
